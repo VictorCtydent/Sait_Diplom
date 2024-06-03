@@ -1,0 +1,338 @@
+body {
+    background: rgb(67, 80, 69);
+    max-width: 100%;
+    margin: -35px 1px 0px 1px;
+}
+
+table, td, th {
+    text-align:center;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    margin: auto;
+    max-width: 100%;
+    
+  }
+  
+  table {
+    width: 65%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(127, 255, 212, 0.13);
+    
+  } 
+
+  .table1, td, th {
+    text-align:center;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    
+}
+  
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    background-color: rgb(31, 38, 41); 
+    padding: 0px; 
+    font-size:19pt;
+    text-align: center;
+    line-height : 2
+    
+}
+
+.left {
+    text-align: left;
+    width: 25%;
+    font-size: 22px;
+    color: white;
+}
+  
+.center {
+    text-align: center;
+    width: 50%;
+    font-size: 28px;
+    color: white;
+}
+  
+.right {
+    text-align: right;
+    width: 25%;
+    font-size: 20px;
+    color: white;
+}
+
+.lefT1 {
+    text-align: left;
+    width: 15%;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.centeR1 {
+    text-align: center;
+    width: 85%;
+    font-size: 38px;
+    color: white;
+}
+
+.navbar 
+ {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown, 
+.dropdownnew, 
+.dropdown3, 
+.dropdown4, 
+.dropdown5, 
+.dropdown6 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 57px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0px 0px 0px 405px;
+    border-left: 4px solid #e0cff525;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn,
+.navbar a:hover, .dropdownnew:hover .dropbtn2,
+.navbar a:hover, .dropdown3:hover .dropbtn3, 
+.navbar a:hover, .dropdown4:hover .dropbtn4,
+.navbar a:hover, .dropdown5:hover .dropbtn5,
+.navbar a:hover, .dropdown6:hover .dropbtn6 {
+    background-color: rgb(57, 16, 206);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0px 0px 0px 410px;
+}
+
+.dropdown-content a,
+.dropdown-content2 a,
+.dropdown-content3 a,
+.dropdown-content4 a,
+.dropdown-content5 a,
+.dropdown-content6 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover,
+.dropdown-content2 a:hover,
+.dropdown-content3 a:hover,
+.dropdown-content4 a:hover,
+.dropdown-content5 a:hover,
+.dropdown-content6 a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdownnew:hover .dropdown-content2,
+.dropdown3:hover .dropdown-content3,
+.dropdown4:hover .dropdown-content4,
+.dropdown5:hover .dropdown-content5,
+.dropdown6:hover .dropdown-content6 {
+    display: block;
+}
+
+.dropdownnew .dropbtn2 {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 57px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown3 .dropbtn3 {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 57px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown4 .dropbtn4 {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 57px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown5 .dropbtn5 {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 57px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+    
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown6 .dropbtn6 {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 50px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin: 0px 400px 0px 0px;
+    border-right: 4px solid #e0cff525;
+    background: #333; /* Цвет фона */
+}
+
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.social-icons,
+.social-icons2,
+.social-icons3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  
+}
+   
+.social-icons a,
+.social-icons2 a,
+.social-icons3 a {
+    margin:10px 10px 0px 0px;
+}
+   
+.social-icons img {
+    width: 72px;
+    height: 72px;
+    transition: transform 0.3s;
+}
+   
+.social-icons a:hover img,
+.social-icons2 a:hover img,
+.social-icons3 a:hover img {
+    transform: scale(1.2);
+} 
+ 
+.social-icons2 img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.social-icons3 img {
+  width: 100px;
+  height: 70px;
+  transition: transform 0.3s;
+}
+
+.footer {
+    background-color: rgb(31, 38, 41); 
+  }
+
+.trenirovka {
+    text-align: center;
+    
+}

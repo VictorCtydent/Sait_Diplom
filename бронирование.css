@@ -1,0 +1,236 @@
+body {
+    background: rgb(67, 80, 69);
+    max-width: 100%;
+    margin: -35px 1px 0px 1px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size:40pt;
+    height: 100px; 
+    margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(31, 38, 41); 
+    padding: 10px; 
+    font-size:19pt;
+    text-align: center;
+}
+
+.table1, td, th {
+    text-align:center;
+    color: rgb(213, 218, 216);
+    padding: 7px;
+    font-size: 20px;
+    
+}
+  
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    background-color: rgb(31, 38, 41); 
+    padding: 0px; 
+    font-size:19pt;
+    text-align: center;
+    line-height : 2
+    
+}
+
+.left {
+    text-align: left;
+    width: 25%;
+    font-size: 22px;
+    color: white;
+}
+  
+.center {
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+    color: white;
+}
+  
+.right {
+    text-align: right;
+    width: 25%;
+    font-size: 20px;
+    color: white;
+}
+
+.nadpis {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.opisanie {
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 0px 400px;
+    line-height : 1.5;
+}
+
+ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin: -285px 0px 0px 0px;
+    padding:0;
+  }
+  
+  ul li {
+    list-style:none;
+    margin:0 5px;
+  }
+  
+  ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+  
+  ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #0ee73d96;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #0ee73d41;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #0ee73d79;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+  ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+  ul li:hover .fa {
+    color:#fff;
+  }
+  
+  ul li:hover span {
+    color:#fff;
+  }
+  
+  ul li:hover:nth-child(1) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(1) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+  }
+  
+  ul li:hover:nth-child(2) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(2) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(2) a:after{
+    background: #4a69ad;
+  }
+  
+  ul li:hover:nth-child(3) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(3) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(3) a:after{
+    background: #4a69ad;
+  }
+  
+  ul li:hover:nth-child(4) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(4) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(4) a:after{
+    background: #4a69ad;
+  }
+
+.tablica {
+  width: 68%;
+  margin: -55px 1px 0px 407px;
+}
+
+.tablica, td, th {
+  text-align:left;
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.social-icons4
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  
+}
+
+.social-icons4 a {
+    margin:10px 10px 0px 0px;
+}
+    
+.social-icons4 a:hover img {
+    transform: scale(1.2);
+} 
+ 
+.social-icons4 img {
+  width: 130px;
+  height: 100px;
+  transition: transform 0.3s;
+}

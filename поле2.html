@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><Забронировать></title> 
+        <link rel="stylesheet" href="styles1.css">  
+    </head>
+    <body>
+        <div id="student" class="content">
+            <div>
+              
+                <table class="table1">
+                      <td class="left">Сегодня 
+                        <script type="text/javascript">
+                        var d = new Date();
+                        var day=new Array("воскресенье","понедельник","вторник","среда","четверг","пятница", "суббота");
+                        var month=new Array("января","февраля","марта","апреля","мая","июня", "июля","августа","сентября","октября","ноября","декабря");
+                        document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]+ " " + d.getFullYear() + " г.");
+                        </script></td>
+                      <td class="center"><strong>Забронируйте поле №2 в удобное для вас время
+                        <br>
+                            <img src="время.png" width="50" height="50" align="center" / >
+                        <div style="font-size:15pt"> 09:00 - 24:00 </div>
+                    </span></td>
+                      <td class="right">г. Новосибирск, ул. Футбольная 182
+                        <br>
+                        <br>
+                        
+                        +7 (903) - (932) - 55 - 83 </td>
+                        <br>
+                        </table>
+                      <br>
+                    <div class="bronirovanie" align="center"/>
+                       <strong>Выберите удобное время для занятий спортом и нажмите кнопку «Забронировать» </strong>
+                    </div>
+                    <br>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                              <th></th>
+                              <th id="cell2"></th>
+                              <th id="cell3"></th>
+                              <th id="cell4"></th>
+                              <th id="cell5"></th>
+                              <th id="cell6"></th>
+                              <th id="cell7"></th>
+                              <th id="cell8"></th>
+                                    <th></th>
+                                </th>
+                             </tr>
+                          </thead>
+                          <body>
+                            <tr>
+                              <th scope="row">09:00</th>
+                              <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                              <th scope="row">09:00</th>
+                           </tr>
+                           <tr>
+                              <th scope="row">09:30</th>
+                              <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                              <th scope="row">09:30</th>
+                           </tr>
+                          <tr>
+                              <th scope="row">10:00</th>
+                              <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                              <th scope="row">10:00</th>
+                          </tr>
+                          <tr>
+                            <th scope="row">10:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">10:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">11:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">11:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">12:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">12:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">13:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">13:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">13:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">13:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">14:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">14:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">14:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">14:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">15:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">15:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">15:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">15:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">16:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">16:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">16:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">16:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">17:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">17:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">17:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">17:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">18:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">18:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">18:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                              <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">18:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">19:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">19:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">19:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">19:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">20:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">20:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">20:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">20:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">21:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">21:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">21:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">21:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">22:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">22:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">22:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">22:30</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">23:00</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">23:00</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">23:30</th>
+                            <td><button id="glava1" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava2" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava3" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava4" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava5" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava6" onclick="sds2(this)">1200 руб</button></td>
+                            <td><button id="glava7" onclick="sds2(this)">1200 руб</button></td>
+                            <th scope="row">23:30</th>
+                        </tr>
+                        <div class="result" id="result" > </div>
+                        <script src="js.js"></script>
+    </body>
+</html>
